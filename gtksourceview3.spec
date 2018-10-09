@@ -60,7 +60,9 @@ GtkSourceView development files
 %setup -qn %{oname}-%{version}
 
 %build
-%configure --disable-vala
+%configure 
+            --disable-vala
+            --disable-glade-catalog
 %make 
 
 %install
