@@ -12,7 +12,7 @@
 Summary:	Source code viewing library
 Name:		gtksourceview
 Version: 	3.24.9
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(gtk-doc)
 BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:       pkgconfig(vapigen)
 
 %description
 GtkSourceview is a library that adds syntax highlighting,
@@ -61,7 +62,6 @@ GtkSourceView development files
 
 %build
 %configure \
-       --disable-vala \
        --disable-glade-catalog
 %make 
 
