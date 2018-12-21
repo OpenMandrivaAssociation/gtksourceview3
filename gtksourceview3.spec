@@ -10,9 +10,9 @@
 %define _disable_rebuild_configure 1
 
 Summary:	Source code viewing library
-Name:		gtksourceview
+Name:		gtksourceview3
 Version: 	3.24.9
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
