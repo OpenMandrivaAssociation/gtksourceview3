@@ -11,7 +11,7 @@
 
 Summary:	Source code viewing library
 Name:		gtksourceview3
-Version: 	3.24.10
+Version: 	3.24.11
 Release:	1
 License:	GPLv2+
 Group:		Editors
